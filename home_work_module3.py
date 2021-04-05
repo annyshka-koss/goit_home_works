@@ -7,6 +7,6 @@ def fibonacci(n):
         return fibonacci(n-1)+fibonacci(n-2)
 
 if __name__=='__main__':
-    main=int(input("Enter number: "))
-    n=main
+    n=int(input("Enter number: "))
+
 print (fibonacci(n))
