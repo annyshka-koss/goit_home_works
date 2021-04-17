@@ -34,14 +34,14 @@ def recursive_print(path):
         else:
             unknown.append(path.name)
             unknown_type.add(path.suffix)
-    return pic
-    return vid
-    return doc
-    return musc
-    return arch
-    return unknown
-    return file_type
-    return unknown_type       
+    print (pic)
+    print(vid)
+    print(doc)
+    print(musc)
+    print(arch)
+    print(unknown)
+    print(file_type)
+    print(unknown_type) 
 
 def main():
     path = sys.argv[1]
